@@ -1,0 +1,112 @@
+#image img{
+    height: 40%;
+    width: 50%;
+    margin-top: -430px;
+    margin-left: 598px;
+}
+#navbars ul{
+    
+    display: flex;
+    padding: 15px 339px;
+    margin: -8px -321px;
+    opacity:0.8;
+
+}
+#navbars
+{    
+    display: flex;
+   
+    position: relative;
+}
+#navbars ul li{
+    
+   
+    list-style: none;
+    
+    font-size: 1.2rem;
+
+}
+#navbars ul li a{
+    display: block;
+    padding:  3px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    color: grey;
+    margin: 12px 12px;
+    
+    
+}
+#navbars ul li a:hover{
+    background-color:#519ad4;
+    color: white;
+}
+#text1 
+{
+    margin: 52px 12px;
+}
+#text1 h1
+{
+    margin-left: 61px;
+    color: #519ad4 ;
+    font-size: 4rem;
+}
+#text1 h2{
+    font-size: 2rem;
+    color: gray;
+}
+.card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+h1{
+ font-size: 20px;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #519ad4;
+   
+    border-radius: 5px;
+    padding:10px;
+   text-decoration: none;
+  }
+  button:hover{
+    background-color: #316188;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .card .des button a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
